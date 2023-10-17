@@ -33,8 +33,6 @@ def JSONThings():
         except:
           print("The operation could not be completed due to lack of arguments: jsonformattedcontent")
           print("Command should look like: json writefile <filename> <jsonformattedcontent>")
-        else:
-          print("Done")
     except IndexError:
       print("The operation could not be completed due to lack of arguments: filename, jsonformattedcontent")
       print("Command should look like: json writefile <filename> <jsonformattedcontent>")
